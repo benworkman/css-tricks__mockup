@@ -1,0 +1,247 @@
+/* CSS-TRICKS MOCKUP */
+a {
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+  color: #FFF;
+}
+.css-tricks {
+  padding-left: 20px;
+  height: 100px;
+  width: 300px;
+}
+.navbar__link, a {
+  color: #BBB;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  float: none;
+  list-style: none;
+  display: inline-block;
+  padding: 42.5px 20px 42.5px 20px;
+  font-size: 1.5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 1.2rem;
+}
+.navbar {
+  background-color: #222;
+  margin-bottom: 0;
+  top: 0;
+  width: 100%;
+}
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+body {
+  margin: 0;
+  background-color: #F6E4D2;
+}
+.blog:hover {
+  background: #ee8c25 linear-gradient(140deg, #ee8c25 0%, #ee8c25 10%, #e28523 10%, #e28523 20%, #d17b21 19%, #d67e21 21%, #d67e21 20%, #d67e21 30%, #c6741f 29%, #ca7720 31%, #ca7720 30%, #ca7720 40%, #ba6d1d 39%, #be701e 41%, #be701e 40%, #be701e 50%, #ae661b 49%, #b2691c 51%, #b2691c 50%, #b2691c 60%, #a25f19 59%, #a7621a 61%, #a7621a 60%, #a7621a 70%, #965817 69%, #9b5b18 71%, #9b5b18 70%, #9b5b18 80%, #8a5116 79%, #8f5416 81%, #8f5416 80%, #8f5416 90%, #7e4a14 89%, #834d14 91%, #834d14 90%, #834d14 100%)
+}
+.videos:hover {
+  background: #d14730 linear-gradient(140deg, #d14730 0%, #d14730 10%, #c7432e 10%, #c7432e 20%, #b83e2a 19%, #bc402b 21%, #bc402b 20%, #bc402b 30%, #ae3b28 29%, #b23c29 31%, #b23c29 30%, #b23c29 40%, #a33725 39%, #a73926 41%, #a73926 40%, #a73926 50%, #993423 49%, #9d3524 51%, #9d3524 50%, #9d3524 60%, #8e3021 59%, #933222 61%, #933222 60%, #933222 70%, #842d1e 69%, #882e1f 71%, #882e1f 70%, #882e1f 80%, #79291c 79%, #7e2b1d 81%, #7e2b1d 80%, #7e2b1d 90%, #6f2619 89%, #73271a 91%, #73271a 90%, #73271a 100%);
+}
+.almanac:hover {
+  background: #a048b9 linear-gradient(140deg, #a048b9 0%, #a048b9 10%, #9845b0 10%, #9845b0 20%, #8c40a3 19%, #9041a6 21%, #9041a6 20%, #9041a6 30%, #853c99 29%, #883e9d 31%, #883e9d 30%, #883e9d 40%, #7d3990 39%, #803a94 41%, #803a94 40%, #803a94 50%, #753587 49%, #78368b 51%, #78368b 50%, #78368b 60%, #6d317e 59%, #703381 61%, #703381 60%, #703381 70%, #652e74 69%, #682f78 71%, #682f78 70%, #682f78 80%, #5d2a6b 79%, #602b6f 81%, #602b6f 80%, #602b6f 90%, #552662 89%, #582866 91%, #582866 90%, #582866 100%);;
+}
+.snippets:hover {
+  background: #1c9edc linear-gradient(140deg, #1c9edc 0%, #1c9edc 10%, #1b96d1 10%, #1b96d1 20%, #198bc2 19%, #198ec6 21%, #198ec6 20%, #198ec6 30%, #1783b7 29%, #1886bb 31%, #1886bb 30%, #1886bb 40%, #167bac 39%, #177eb0 41%, #177eb0 40%, #177eb0 50%, #1573a1 49%, #1576a5 51%, #1576a5 50%, #1576a5 60%, #136b96 59%, #146e9a 61%, #146e9a 60%, #146e9a 70%, #12638b 69%, #12668f 71%, #12668f 70%, #12668f 80%, #105b80 79%, #115f84 81%, #115f84 80%, #115f84 90%, #0f5475 89%, #105779 91%, #105779 90%, #105779 100%);
+
+}
+.forums:hover {
+  background: #43b74d linear-gradient(140deg, #43b74d 0%, #43b74d 10%, #3fae49 10%, #3fae49 20%, #3ba144 19%, #3ca546 21%, #3ca546 20%, #3ca546 30%, #379840 29%, #399c42 31%, #399c42 30%, #399c42 40%, #348f3c 39%, #35933e 41%, #35933e 40%, #35933e 50%, #318638 49%, #328a3a 51%, #328a3a 50%, #328a3a 60%, #2d7d35 59%, #2f8036 61%, #2f8036 60%, #2f8036 70%, #2a7431 69%, #2b7732 71%, #2b7732 70%, #2b7732 80%, #276a2d 79%, #286e2e 81%, #286e2e 80%, #286e2e 90%, #236129 89%, #25652b 91%, #25652b 90%, #25652b 100%);
+}
+.shop:hover {
+  background: #dea200 linear-gradient(140deg, #dea200 0%, #dea200 10%, #d39a00 10%, #d39a00 20%, #c48f00 19%, #c89200 21%, #c89200 20%, #c89200 30%, #b88700 29%, #bd8a00 31%, #bd8a00 30%, #bd8a00 40%, #ad7f00 39%, #b28200 41%, #b28200 40%, #b28200 50%, #a27700 49%, #a77a00 51%, #a77a00 50%, #a77a00 60%, #976e00 59%, #9c7200 61%, #9c7200 60%, #9c7200 70%, #8c6600 69%, #906a00 71%, #906a00 70%, #906a00 80%, #815e00 79%, #856100 81%, #856100 80%, #856100 90%, #765600 89%, #7a5900 91%, #7a5900 90%, #7a5900 100%);
+}
+.lodge:hover {
+  background: #c4605f linear-gradient(140deg, #c4605f 0%, #c4605f 10%, #ba5b5a 10%, #ba5b5a 20%, #ad5554 19%, #b15756 21%, #b15756 20%, #b15756 30%, #a3504f 29%, #a75251 31%, #a75251 30%, #a75251 40%, #994b4a 39%, #9d4d4c 41%, #9d4d4c 40%, #9d4d4c 50%, #8f4645 49%, #934847 51%, #934847 50%, #934847 60%, #854141 59%, #894343 61%, #894343 60%, #894343 70%, #7c3d3c 69%, #803f3e 71%, #803f3e 70%, #803f3e 80%, #723837 79%, #763a39 81%, #763a39 80%, #763a39 90%, #683332 89%, #6c3534 91%, #6c3534 90%, #6c3534 100%);
+}
+.jobs:hover {
+  background: #4cdcb7 linear-gradient(140deg, #4cdcb7 0%, #4cdcb7 10%, #49d1ae 10%, #49d1ae 20%, #43c1a1 19%, #45c6a5 21%, #45c6a5 20%, #45c6a5 30%, #3fb698 29%, #41bb9b 31%, #41bb9b 30%, #41bb9b 40%, #3cac8f 39%, #3db092 41%, #3db092 40%, #3db092 50%, #38a185 49%, #39a589 51%, #39a589 50%, #39a589 60%, #34967c 59%, #359a80 61%, #359a80 60%, #359a80 70%, #308b73 69%, #328f77 71%, #328f77 70%, #328f77 80%, #2c806a 79%, #2e846e 81%, #2e846e 80%, #2e846e 90%, #287561 89%, #2a7965 91%, #2a7965 90%, #2a7965 100%);
+}
+.search-widget {
+  position: relative;
+  float: right;
+  margin-top: 30px;
+}
+.avatar {
+  float: right;
+  padding: 35px 25px 0 25px;
+  width: 35px;
+  height: 35px;
+}
+#search {
+  border: .05px solid #FFF;
+  background-color: #37342E;
+  height: 40px;
+  width: 250px;
+  padding-left: 10px;
+  font-size: 1.2em;
+  border-radius: 3px;
+}
+
+#search:valid {
+  color: #FFF;
+}
+
+@media (max-width: 1296px) {
+  .navbar ul {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+}
+@media (max-width: 702px) {
+  .navbar li {
+    display: inline-block;
+  }
+  .content {
+    flex-direction: column;
+  }
+
+}
+
+/*Styling the content left and content right*/
+.content {
+  display: flex;
+  background-color: #FDF8F4;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.content-left {
+  flex: 3 0;
+}
+.content-right {
+  flex: 2 1;
+}
+.content-right__post {
+
+}
+.content-left__post {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.content-left__post, .content-right__post {
+  align-content: space-around;
+  margin: 10%;
+  padding: 10%;
+}
+.post-date, .post-author {
+  text-transform: uppercase;
+  margin: 0;
+}
+.post-author:hover {
+  cursor: pointer;
+}
+.post-title {
+  text-transform: capitalize;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin: 0;
+  font-weight: 900;
+}
+.post-title:hover {
+  cursor: pointer;
+  color: #2793C7;
+}
+.post-body {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+.post-date {
+  color: #999;
+  font-size: 1rem;
+  font-family: Times, sans-serif;
+}
+.author {
+  color: #2793C7;
+}
+.orange-font {
+  color: #EE8C45;
+}
+.mt-logo {
+  display: block;
+  width: 100px;
+}
+.button {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  outline: 0 !important;
+  border: 1px solid #D4D4D4 !important;
+  border-radius: 2px;
+  color: #444;
+  background: -webkit-linear-gradient(top, #F4F4F2, #EDEDEB);
+  background: linear-gradient(to bottom, #F4F4F2, #EDEDEB);
+  box-shadow: inset 0 1px 0 #FDFDFC;
+  white-space: nowrap;
+  padding: 5px 8px !important;
+  line-height: 1.4 !important;
+  position: relative;
+}
+.mt-button:hover {
+  color: #2793C7;
+}
+.mt-button {
+  padding-left: 20%;
+  color: #000;
+}
+.mt-text {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: #999;
+}
+.mt-text:hover {
+  color: #000;
+  cursor: pointer;
+}
+.postajob-button {
+  font-size: 1rem;
+  color: #000;
+}
+.seemorejobs-button {
+  font-size: 1rem;
+  color: #000;
+}
+.postajob-button:hover {
+  color: #2793C7;
+}
+.seemorejobs-button:hover {
+  color: #2793C7;
+}
+.no-dots {
+  list-style-type: none;
+}
+.link-that-shit {
+  color: #2793C7;
+
+}
+.link-that-shit:hover {
+  color: #000;
+}
+.right-post__title {
+  display: block;
+  box-sizing: border-box;
+  padding: 0;
+  line-height: 1.1rem;
+  font-weight: 500;
+}
+.mt-logo, .mt-button {
+  padding-right: 40%;
+}

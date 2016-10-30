@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CSS-Tricks</title>
+  <link href="styles.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale1">
+</head>
+<body>
+  <div class="navbar cf">
+    <img class="css-tricks" src="images/logocss.png">
+    <img class="avatar" src="images/avatar.png">
+    <div class="search-widget">
+      <input id="search" placeholder="e.g. flexbox" type="search" autofocus/>
+    </div>
+    <ul class="navbar__links">
+      <li class="blog"><a link rel="stylesheet" href="https://css-tricks.com/">Blog</a></li>
+      <li class="videos"><a link rel="stylesheet" href="https://css-tricks.com/video-screencasts/">Videos</a></li>
+      <li class="almanac"><a link rel="stylesheet" href="https://css-tricks.com/almanac/">Almanac</a></li>
+      <li class="snippets"><a link rel="stylesheet" href="https://css-tricks.com/snippets/">Snippets<a></li>
+        <li class="forums"><a link rel="stylesheet" href="https://css-tricks.com/forums/">Forums</a></li>
+        <li class="shop"><a link rel="stylesheet" href="https://css-tricks.com/Shop">Shop</a></li>
+        <li class="lodge"><a link rel="stylesheet" href="https://css-tricks.com/Lodge">Lodge</a></li>
+        <li class="jobs"><a link rel="stylesheet" href="https://css-tricks.com/Jobs">Jobs</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="content-left">
+        <div class="content-left__post">
+          <h6 class="post-date">October 24, 2016</h6>
+          <h2 class="post-title">Responsive Images in CSS</h2>
+          <h5 class="post-author">By <span class="author">chris coyier</span></h5>
+          <p class="post-body">
+            The term "responsisve images" has come to mean "responsive<br>
+            images in HTML",in other words,the scrset and sizes<br>
+            attribute for img tag and the < picture></picture><br>
+            element. But how do the capabilities that these things provide<br>
+            map to CSS?
+          </p>
+        </div>
+        <div class="content-left__post">
+          <h6 class="post-date">October 23, 2016</h6>
+          <h2 class="post-title">why do websites publish AMP pages?</h2>
+          <h5 class="post-author">By <span class="author">Ben Workman</span></h5>
+          <p class="post-body">
+            I cannot tell if you AMP will shake out to have been a good or bad idea for the web.
+
+            I can attempt to answer this question though: those sites don't care where you read them. They just want people to read them. Read them. Like them. Trust them. So when they have something to sell (in any sense of the word), they sell it. Losing that attention is more scary than losing direct traffic to one place it publishes. Without saying it in so many words, AMP is saying: you stand to lose that attention without this.
+
+            And of course it's not just AMP, there are <a class="link-that-shit" link rel="stylesheet" href="http://mediatemple.net/blog/tips/wordpress-apple-news-instant-articles-amp/">loads of off-site places</a> you can publish to. So many that I think publishers are saying: "whatever, just make it easy, and we'll blast our content wherever you want."
+          </p>
+        </div>
+        <div class="content-left__post">
+          <h6 class="post-date">October 21, 2016</h6>
+          <h2 class="post-title">you can't detect a touchscreen</h2>
+          <h5 class="post-author">By <span class="author">Ben Workman</span></h5>
+          <p class="post-body">
+            Stu Cox explains that there are a ton of ways you might think you can get a yes-or-no answer on whether a browser supports touch or not:
+
+            Width media queries
+            Touch-related DOM events
+            Touch-related APIs
+            Pointer media queries
+            The normal refrain around this is "there are devices that are both, so you'd be wrong on those," which is true, but it's actually more problematic than that. These testing methods are often just straight up wrong.
+
+            So:
+
+            For layouts, assume everyone has a touchscreen. Mouse users can use large UI controls much more easily than touch users can use small ones. The same goes for hover states.
+
+            For events and interactions, assume anyone may have a touchscreen. Implement keyboard, mouse and touch interactions alongside each other, ensuring none block each other.
+
+          </p>
+        </div>
+        <div class="content-left__post">
+          <h6 class="post-date">October 21, 2016</h6>
+          <h2 class="post-title">on style maintenance</h2>
+          <h5 class="post-author">By <span class="author">sarah drasner</span></h5>
+          <p class="post-body">
+            I was talking to a brilliant engineer friend the other day who mentioned they never get to build anything from the ground up. Their entire career has consisted of maintaining other people's (often quite poor) code.
+
+            In a perfect world, we'd all get to write code from scratch, it would work perfectly, and we would put it into a bin in the sky, never to be looked at by anyone again.
+
+            We all know that's not how it works. Code need to be maintained.
+          </p>
+        </div>
+      </div>
+      <div class="content-right">
+        <div class="content-right__post">
+          <p class="post-body">
+            <h2 class="right-post__title">>_ job board</h2>
+            <ul class="no-dots">
+              <li><b>OSIsoft</b> is hiring a Software<br>Engineer,Visualization</li><br>
+              <li><b>The Orvis Company</b>is hiring a<br>Full Stack Web Developer</li><br>
+              <li><b>OSIsoft</b>is hiring a Front End<br>Developer</li><br>
+            </ul>
+            <span class="button">
+              <a class="seemorejobs-button" link rel="website" href="https://css-tricks.com/jobs/" media="screen" title="no title">See More Jobs</a>
+            </span>
+            <span class="button">
+              <a class="postajob-button" link rel="website" href="https://codepen.io/jobs/post" media="screen" title="no title">Post A Job</a>
+            </span>
+          </p>
+        </div>
+        <div class="content-right__post">
+          <div class="mt-logo">
+            <img src="images/mtlogo.png" alt="Mt-Logo" />
+          </div>
+          <div class="mt-text">
+            <p>CSS-Tricks uses and recommends Media Temple web hosting. Their exceptional service and support keep this site fast. Use coupon code <span class="orange-font">CSSTRICKS</span> to save on 20% for the first year</p>
+            <span class="button">
+              <a class="mt-button" link rel="website" href="https://mediatemple.net/landing/csstricks/?utm_source=CSS-Tricks&utm_medium=web&utm_campaign=heaeder-box" media="screen" title="no title">Save 20% on Web Hosting</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
